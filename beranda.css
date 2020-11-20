@@ -1,0 +1,109 @@
+body{
+    margin: auto;
+}
+
+header{
+    background-color:goldenrod;
+    height: 200px;
+    margin-top: 0;
+    padding-top: 40px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#imgback{
+    background: url(vasily-koloda-8CqDvPuo_kI-unsplash.jpg); 
+    background-size: cover;
+    height: 800px;
+    margin: 0;
+    max-width: 1500px; 
+    padding-top: 150px;
+ }
+
+#imgback h1{
+    text-align: center;
+    font-size: 45px;
+    color:black;
+    background-color: white;
+    display: inline-block;
+    margin-left: 444px;
+}
+
+ .box {
+    border-radius: 20px;
+    width: 500px;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+    padding: 20px;
+    font-size: 15pt;
+    text-align: center;
+    background: rgb(45, 6, 53);
+    color: blueviolet;
+    float: center;
+ }
+
+ .right{
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 5px;
+    font-size: 15pt;
+    text-align: center;
+    background: azure;
+    color:burlywood;
+    float: right;
+ }
+
+ .left{
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    padding: 5px;
+    padding-left: 30px;
+    font-size: 15pt;
+    text-align: center;
+    background: azure;
+    color: burlywood;
+    float: left;
+ }
+
+#payment{
+    background: url(payment.png);
+}
+
+#topup{
+    background: url(topup.png);
+}
+
+#transfer{
+    background: url(transfer.png);
+}
+
+#logout{
+    background: url(logout.png);
+}
+
+footer { 
+    background:orange;
+    height: 80px; 
+    padding: 60px;
+    margin: auto;
+}
+
+footer h2{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}

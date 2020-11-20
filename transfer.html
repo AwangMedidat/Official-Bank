@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transfer Page</title>
+        <link href="transfer.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Official Bank</h1>
+        </header>
+        <div id="imgtf">
+            <form class="boxtf">
+                <div id="name">
+                    <label>Masukkan Nominal Rp:</label>
+                    <input type="text" name="nominal" id="nominal"/>
+                    <p>   
+                        <label>Nama Rekening an:</label>
+                        <input type="text" name="namaOrang" id="namaOrang"/>
+                    </p>
+                    <p>  
+                        <label>No. Rekening an:</label>
+                        <input type="text" name="norek" id="norek"/>
+                    </p>
+                    <p>
+                        <label>Tujuan Rekening:</label>
+                        <select name="rekening"> 
+                        <option class="namaBank" value="Bank BRI">Bank BRI</option>
+                        <option class="namaBank" value="Bank BNI">Bank BNI</option>
+                        <option class="namaBank" value="Bank BCA">Bank BCA</option>
+                        <option class="namaBank" value="Bank BRI Syariah">Bank BRI Syariah</option>
+                        <option class="namaBank" value="Bank BNI Syariah">Bank BNI Syariah</option>
+                        <option class="namaBank" value="Maybank">Maybank</option>
+                        <option class="namaBank" value="OVO">OVO</option>
+                        <option class="namaBank" value="Gopay">Gopay</option>
+                        </select>
+                    </p>
+                    <a href="transfer.html"><input id="saveTf" type="button" name="save" value="Save" /></a>
+                    <a href="homepage.html"><input id="back" type="button" name="back" value="Back" /></a>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <h2>BERSAMA KAMI ANDA MENUJU MASA DEPAN CERAH</h2>
+        </footer>
+        <script type="text/javascript" src="transfer.js"></script>
+    </body>
+</html>

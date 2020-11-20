@@ -1,0 +1,49 @@
+body{
+    margin: auto;
+}
+
+header{
+    background-color:goldenrod;
+    height: 200px;
+    margin-top: 0;
+    padding-top: 40px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#imgtop{
+    background: url(sharon-mccutcheon-8lnbXtxFGZw-unsplash.jpg); 
+    background-size: cover;
+    height: 500px;
+    margin: 0;
+    max-width: 1500px; 
+    padding-top: 150px;
+}
+
+.boxtop{
+    width: 500px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 15pt;
+    text-align: left;
+    background: antiquewhite;
+    color:darkblue;
+    float: center;
+}
+
+footer { 
+    background:orange;
+    height: 80px; 
+    padding: 60px;
+    margin: auto;
+}
+
+footer h2{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
