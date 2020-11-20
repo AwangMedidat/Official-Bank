@@ -7,7 +7,7 @@ login.addEventListener("click", function (event) {
     
        
     if(nama.value === "admin" && pass.value === "admin"){ 
-        window.location.href = "file:///C:/Users/ACER/Documents/RMT-7/Project/homepage.html"
+        window.location.href = "homepage.html"
     }else{
         alert(`Username dan Password salah`)
     }
